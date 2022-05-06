@@ -14,6 +14,7 @@ declare module 'intro.js-react' {
     /**
      * Position of the tooltip.
      */
+    title: string | React.ReactNode;
     position?: string;
     /**
      * CSS class of the tooltip.
