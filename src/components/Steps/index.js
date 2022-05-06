@@ -21,6 +21,7 @@ export default class Steps extends Component {
       PropTypes.shape({
         element: PropTypes.oneOfType([PropTypes.string, PropTypes.instanceOf(Element)]),
         intro: PropTypes.node.isRequired,
+        title: PropTypes.node.isRequired,
         position: introJsPropTypes.tooltipPosition,
         tooltipClass: PropTypes.string,
         highlightClass: PropTypes.string,
